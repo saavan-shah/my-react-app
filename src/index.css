@@ -137,3 +137,7 @@ Square {
   min-height: 50%;
   border: 1px solid #000;
 }
+.status {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
