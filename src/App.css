@@ -1,0 +1,27 @@
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 8px 0; 
+  border: 1px solid var(--border);
+}
+button {
+  width: 100%;
+  aspect-ratio: 1;
+  font-size: 48px;
+  line-height: 1;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+Square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 2rem;
+  max-height: 2rem;
+  min-width: 100%;
+  min-height: 100%;
+}
