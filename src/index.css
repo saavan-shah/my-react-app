@@ -109,3 +109,31 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
+
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 8px 0; 
+  border: 1px solid #000;
+}
+button {
+  width: 100%;
+  aspect-ratio: 1;
+  font-size: 48px;
+  line-height: 1;
+  background: transparent;
+  cursor: pointer;
+}
+Square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  max-width: 1rem;
+  max-height: 1rem;
+  min-width: 50%;
+  min-height: 50%;
+  border: 1px solid #000;
+}
